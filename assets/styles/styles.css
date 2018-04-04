@@ -9,13 +9,14 @@ html,body{
     right:0;
     background:grey;
     z-index:3;
+    height:10px;
 }
 
 .hero{
     padding:210px;
     background-image: url(../images/hero-background-city.jpg);
     background-size: cover;
-    background-attachement: fixed;
+    background-attachement:fixed;
     height: 100vh;
     position:relative
 }
@@ -24,13 +25,24 @@ h1{
     text-align:center;
 }
 
+
+
 .navigation-list-item{
-    display:inline-block
+    display:inline-block;
+    font-size:15px;
+    text-transform:uppercase;
+    color:white;
+    text-decoration:none;
+    padding: 10px;
+
 }
+
+
 
 
 .navigation{
     float:right;
+
 }
 
 .logo{
@@ -39,11 +51,10 @@ h1{
     height: 200px;
 }
 
-
-.clearfix::after{
-    content:"";
-    display:block;
-    clear:both;
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .topbar{
@@ -54,22 +65,24 @@ h1{
 
 
 .feature{
-float:left;
-width: 50%
+    float:left;
+    width:50%;
 }
 
 
 .feature-icon-container{
 padding-top:17px;
-width: 40px;
-float: left;
-text-align:center }
-
-
-.feature-description {
-    width: calc(100% - 40px);
-float: left;
+width:40px;
+float:left;
+text-align:center;
 }
+
+
+.feature-description{
+    width: calc(100% - 40px);
+    float: left;
+}
+
 
 
 .hero-content{
